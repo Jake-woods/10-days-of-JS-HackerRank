@@ -1,3 +1,5 @@
+// https: //www.hackerrank.com/challenges/js10-date/problem
+
 'use strict';
 
 process.stdin.resume();
