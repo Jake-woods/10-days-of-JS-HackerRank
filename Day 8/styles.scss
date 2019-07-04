@@ -1,0 +1,30 @@
+$w: 96px;
+$h: 48px;
+$fz: 24px;
+
+*,
+*::after,
+*::before {
+   box-sizing: border-box;
+}
+
+html,
+body {
+   height: 100%;
+}
+
+body {
+   align-items: center;
+   display: flex;
+   justify-content: center;
+}
+
+#btn {
+   border: 1px solid rgba(17, 17, 17, 0.342);
+   background: none;
+   cursor: pointer;
+   color: #333;
+   font-size: $fz;
+   height: $h;
+   width: $w;
+}
