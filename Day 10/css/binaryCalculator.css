@@ -1,0 +1,44 @@
+*,
+*::after,
+*::before {
+   box-sizing: border-box;
+}
+
+body {
+   width: 33%;
+}
+
+#res {
+   background: lightgrey;
+   border: 3px solid #444;
+   font-size: 20px;
+   height: 48px;
+}
+
+#btn0,
+#btn1 {
+   background: lightgreen;
+   color: brown;
+}
+
+#btnClr,
+#btnEql {
+   background: darkgreen;
+   color: #fff;
+}
+
+#btnSum,
+#btnSub,
+#btnMul,
+#btnDiv {
+   background: #000;
+   color: red;
+}
+
+#btns>button {
+   float: left;
+   font-size: 18px;
+   height: 36px;
+   margin: 0px;
+   width: 25%;
+}

@@ -1,0 +1,27 @@
+<!-- Enter your HTML code here -->
+<!DOCTYPE html>
+<html>
+
+<head>
+   <meta charset="utf-8">
+   <link rel="stylesheet" href="css/binaryCalculator.css">
+   <title>Binary Calculator</title>
+</head>
+
+<body>
+   <div id="res"></div>
+   <div id="btns">
+      <button id="btn0" onclick="appendZeroOne('0')">0</button>
+      <button id="btn1" onclick="appendZeroOne('1')">1</button>
+      <button id="btnClr" onclick="clearResult()">C</button>
+      <button id="btnEql" onclick="eqls()">=</button>
+      <button id="btnSum" onclick="getOperator('+')">+</button>
+      <button id="btnSub" onclick="getOperator('-')">-</button>
+      <button id="btnMul" onclick="getOperator('*')">*</button>
+      <button id="btnDiv" onclick="getOperator('/')">/</button>
+   </div>
+
+   <script src="js/binaryCalculator.js"></script>
+</body>
+
+</html>
